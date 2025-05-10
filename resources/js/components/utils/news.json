@@ -1,0 +1,319 @@
+{
+    "data": [
+        {
+            "news_url": "https://coinpedia.org/news/crypto-market-today-oct-29th-2024-bitcoin-new-all-time-highs-on-horizon/",
+            "image_url": "https://crypto.snapi.dev/images/v1/z/w/f/crypto-news-this-week-28th-sep-583310.webp",
+            "title": "Crypto Market Today (Oct 29th, 2024): Bitcoin New All-time Highs on Horizon?",
+            "text": "The crypto market today is buzzing as it has surged 3.74% over the past day, bringing the market capitalization to $2.41 trillion. Trading volume also surged significantly by 72.27% to $101.81 billion, highlighting strong momentum as major digital assets continue to show bullish movements.",
+            "source_name": "CoinPedia",
+            "date": "Tue, 29 Oct 2024 08:35:32 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://finbold.com/bitcoin-influencer-calls-cardanos-btc-l2-solution-a-scam-is-it-really/?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/placeholders/crypto/crypto51.jpg",
+            "title": "Bitcoin influencer calls Cardano's BTC L2 solution a scam — Is it really?",
+            "text": "A Bitcoin-focused company, BitcoinOS, recently launched a development that can theoretically bridge Bitcoin (BTC) to Cardano (ADA) and other blockchains. A faction of the Bitcoin community, however, is skeptical of the solution, going as far as calling it a “scam.",
+            "source_name": "Finbold",
+            "date": "Tue, 29 Oct 2024 08:31:35 -0400",
+            "topics": [],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "ADA",
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.fool.com/investing/2024/10/29/historic-debt-inflation-and-a-billionaires-warning/",
+            "image_url": "https://crypto.snapi.dev/images/v1/f/a/y/btc67-571665-583311.jpg",
+            "title": "Historic Debt, Inflation, and a Billionaire's Warning: Paul Tudor Jones on Why Bitcoin Will Shine",
+            "text": "As U.S. debt and inflation continue to rise, Paul Tudor Jones believes that Bitcoin will rise to the occasion.",
+            "source_name": "The Motley Fool",
+            "date": "Tue, 29 Oct 2024 08:27:00 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://news.bitcoin.com/bitcoin-mining-gamified-inside-miner-wars-and-the-gomining-ecosystem-with-cpo-dan-otryvanoff/",
+            "image_url": "https://crypto.snapi.dev/images/v1/placeholders/crypto/crypto50.jpg",
+            "title": "Bitcoin Mining, Gamified: Inside Miner Wars and the GoMining Ecosystem With CPO Dan Otryvanoff",
+            "text": "Miner Wars by GoMining is a GameFi approach to Bitcoin mining that has been steadily gaining traction since its beta release in mid September. Players can join or create clans to strategize and compete for BTC and GOMINING rewards while engaging in real-time battles that mirror actual block-solving on the Bitcoin blockchain.",
+            "source_name": "Bitcoin",
+            "date": "Tue, 29 Oct 2024 08:21:57 -0400",
+            "topics": [
+                "mining"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC",
+                "GOMINING"
+            ]
+        },
+        {
+            "news_url": "https://coinpedia.org/news/cardano-price-analysis-will-ada-reverse-after-bitcoins-bullish-breakout-above-71k/",
+            "image_url": "https://crypto.snapi.dev/images/v1/s/i/j/cardano-token-builds-bullish-m-583304.webp",
+            "title": "Cardano Price Analysis: Will ADA Reverse After Bitcoin's Bullish Breakout Above $71K?",
+            "text": "Amid the highly anticipated altseason in the near term following the Bitcoin (BTC) bullish breakout above $71k, Cardano (ADA) has signaled an imminent reversal in the near term. The large-cap altcoin, with a fully diluted valuation of about $15.",
+            "source_name": "CoinPedia",
+            "date": "Tue, 29 Oct 2024 08:18:16 -0400",
+            "topics": [
+                "tanalysis",
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "ADA",
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.forbes.com/sites/digital-assets/2024/10/29/leak-reveals-a-14-trillion-china-earthquake-could-be-about-to-hit-crypto-as-the-bitcoin-price-soars-over-70000/",
+            "image_url": "https://crypto.snapi.dev/images/v1/j/5/k/leak-reveals-a-14-trillion-chi-583307.jpg",
+            "title": "Leak Reveals A $1.4 Trillion China Earthquake Could Be About To Hit Crypto As The Bitcoin Price Soars Over $70,000",
+            "text": "A leak has revealed China could be about to drop a $1.",
+            "source_name": "Forbes",
+            "date": "Tue, 29 Oct 2024 08:15:28 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.coindesk.com/markets/2024/10/29/first-mover-americas-btc-jumps-above-71k-doge-leads-market-surge/",
+            "image_url": "https://crypto.snapi.dev/images/v1/placeholders/crypto/crypto49.jpg",
+            "title": "First Mover Americas: BTC Jumps Above $71K, DOGE Leads Market Surge",
+            "text": "The latest price moves in bitcoin (BTC) and crypto markets in context for MONTH XX, 2024. First Mover is CoinDesk's daily newsletter that contextualizes the latest actions in the crypto markets.",
+            "source_name": "Coindesk",
+            "date": "Tue, 29 Oct 2024 08:13:49 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC",
+                "DOGE"
+            ]
+        },
+        {
+            "news_url": "https://www.coinspeaker.com/satoshi-era-bitcoin-wallets-back-life/",
+            "image_url": "https://crypto.snapi.dev/images/v1/f/k/t/btc27-571717-583295.jpg",
+            "title": "Satoshi-Era Bitcoin Wallets Back to Life after Over Decade in Dormancy",
+            "text": "Satoshi-Era Bitcoin addresses in dormancy are now fully back to life.",
+            "source_name": "Coinspeaker",
+            "date": "Tue, 29 Oct 2024 08:05:00 -0400",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.newsbtc.com/bitcoin-news/bitcoin-hash-ribbons-flash-buy-signal-analysts-see-new-highs-on-the-horizon/",
+            "image_url": "https://crypto.snapi.dev/images/v1/2/g/n/btc7-571807-583287.jpg",
+            "title": "Bitcoin Hash Ribbons Flash ‘Buy' Signal: Analysts See New Highs On The Horizon",
+            "text": "Bitcoin (BTC) has recently shown renewed strength in its market stance, with positive signals emerging from key market indicators. This emerging positivity in BTC's market indicators comes on the heels of the asset seeing a gradual recovery in price over the past weeks.",
+            "source_name": "NewsBTC",
+            "date": "Tue, 29 Oct 2024 08:00:57 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://bitcoinist.com/bitcoin-taps-69000-with-bullish-setup-as-us-elections-near-new-ath-soon/",
+            "image_url": "https://crypto.snapi.dev/images/v1/d/q/w/btc26-571722-583290.jpg",
+            "title": "Bitcoin Taps $69,000 With ‘Bullish Setup' As US Elections Near: New ATH Soon?",
+            "text": "Today, Bitcoin (BTC) briefly traded above $69,000, coming close to its all-time high (ATH) value of $73,737 recorded earlier this year in March. Bitcoin ‘Bullish Setup' Reminiscent Of 2020 Rally After months of sideways price movement since March, BTC is continuously attempting to reach a new ATH as the US presidential election draws near.",
+            "source_name": "Bitcoinist",
+            "date": "Tue, 29 Oct 2024 08:00:18 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.cryptoglobe.com/latest/2024/10/buddhist-kingdom-of-bhutan-deposits-929-btc-on-binance-retains-886-million-bitcoin-stash/",
+            "image_url": "https://crypto.snapi.dev/images/v1/n/s/u/kanchanara-y3frkhp-ugy-unsplas-583296.jpg",
+            "title": "Buddhist Kingdom of Bhutan Deposits 929 BTC on Binance, Retains $886 Million Bitcoin Stash",
+            "text": "The Royal Government of Bhutan has started depositing large amounts of the flagship cryptocurrency Bitcoin (BTC) that it acquired through its mining operations into leading cryptocurrency exchange Binance. The Buddhist Kingdom's move comes after the price of the cryptocurrency surged more than 3.8% over the last 24-hour period to now trade at $71,200 per coin.",
+            "source_name": "CryptoGlobe",
+            "date": "Tue, 29 Oct 2024 07:59:00 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.benzinga.com/markets/cryptocurrency/24/10/41596516/bitcoin-clips-71-500-as-wall-street-etf-inflows-fuel-bullish-momentum-whats-next?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/v/n/9/btc18-571765-583293.jpg",
+            "title": "Bitcoin Clips $71,500 As Wall Street, ETF Inflows Fuel Bullish Momentum — What's Next?",
+            "text": "Bitcoin (CRYPTO: BTC) surpassed $71,500 during European daytime trading hours on Tuesday, driven by record-breaking ETF inflows and heightened market activity in derivatives. What Happened: This price surge, up 4.1% over the past 24 hours at the time of writing, comes as Bitcoin spot ETFs experienced an influx of $479 million on Oct. 28, led by BlackRock's ETF (NASDAQ:IBIT) with a $315.1 million addition, according to data from SoSo Value.",
+            "source_name": "Benzinga",
+            "date": "Tue, 29 Oct 2024 07:58:51 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://zycrypto.com/bitcoin-tops-71000-for-first-time-since-june-as-etfs-eat-away-at-supply-ahead-of-us-elections/",
+            "image_url": "https://crypto.snapi.dev/images/v1/v/u/0/btc69-571652-583294.jpg",
+            "title": "Bitcoin Tops $71,000 For First Time Since June As ETFs Eat Away At Supply Ahead Of US Elections",
+            "text": "The price of Bitcoin blew past the $71,000 level on Tuesday for the first time since June to lead a market-wide rally. The crypto's rise comes almost a week before the United States elections, which traders believe is a super bullish catalyst for the market regardless of a Republican or Democrat presidential victory.",
+            "source_name": "Zycrypto",
+            "date": "Tue, 29 Oct 2024 07:57:51 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.theblock.co/post/323473/trump-trade-and-derivatives-market-optimism-help-bitcoin-gain-ground-ahead-of-us-election-analysts",
+            "image_url": "https://crypto.snapi.dev/images/v1/m/g/d/btc27-571717-583291.jpg",
+            "title": "‘Trump trade' and derivatives market optimism help bitcoin gain ground ahead of US election: analysts",
+            "text": "Bitcoin is now trading above the $71,000 mark, signaling growing optimism among traders ahead of the U.S. elections in one week's time.",
+            "source_name": "The Block",
+            "date": "Tue, 29 Oct 2024 07:57:02 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptonews.com/news/is-bhutan-preparing-to-sell-royal-government-moves-66m-worth-of-bitcoin-to-binance/",
+            "image_url": "https://crypto.snapi.dev/images/v1/h/t/g/1730200606-image-1730200409400-583299.jpg",
+            "title": "Is Bhutan Preparing to Sell? Royal Government Moves $66M Worth of BTC to Binance",
+            "text": "Bhutan recently deposited 929 BTC, valued at approximately $66.16 million, to the global cryptocurrency exchange Binance. The post Is Bhutan Preparing to Sell? Royal Government Moves $66M Worth of BTC to Binance appeared first on Cryptonews.",
+            "source_name": "Cryptonews",
+            "date": "Tue, 29 Oct 2024 07:55:42 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.theblock.co/post/323479/bhutan-government-bitcoin-binance",
+            "image_url": "https://crypto.snapi.dev/images/v1/f/q/i/btc35-571686-583282.jpg",
+            "title": "Bhutan government moves $66 million in bitcoin to Binance deposit address: Arkham",
+            "text": "It's the first time Bhutan has sent bitcoin to an exchange since it deposited $24 million worth of the cryptocurrency to Kraken in July.",
+            "source_name": "The Block",
+            "date": "Tue, 29 Oct 2024 07:54:14 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://u.today/99-of-bitcoin-holders-become-profitable-as-btc-nears-all-time-high?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/r/c/n/53472-583279.jpg",
+            "title": "99% of Bitcoin Holders Become Profitable as BTC Nears All-Time High",
+            "text": "Bitcoin (BTC) has successfully proven the \"Uptober\" theory with substantial gains throughout this month. The leading cryptocurrency is inching closer to its all-time high (ATH) of of $73,835.",
+            "source_name": "UToday",
+            "date": "Tue, 29 Oct 2024 07:50:00 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://finbold.com/is-bitcoin-to-100000-now-a-guarantee/?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/e/r/d/btc28-571715-583278.jpg",
+            "title": "Is Bitcoin to $100,000 now a guarantee?",
+            "text": "Bitcoin (BTC) has finally flipped the $70,000 resistance into a support zone, and most market participants anticipate that the momentum will likely target $100,000.",
+            "source_name": "Finbold",
+            "date": "Tue, 29 Oct 2024 07:49:26 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptopotato.com/massive-bitcoin-volatility-imminent-as-u-s-presidential-election-draws-near-bitfinex/",
+            "image_url": "https://crypto.snapi.dev/images/v1/6/m/m/btc75-510007-583277.jpg",
+            "title": "Massive Bitcoin Volatility Imminent as U.S. Presidential Election Draws Near: Bitfinex",
+            "text": "With the correlation between Trump's victory and bitcoin's price trajectory and the asset's Q4 seasonality performance, BTC is in for a wild ride in the coming weeks.",
+            "source_name": "CryptoPotato",
+            "date": "Tue, 29 Oct 2024 07:48:13 -0400",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptodaily.co.uk/2024/10/crypto-price-analysis-10-29-bitcoin-btc-ethereum-eth-solana-sol-dogwifhat-wif-chainlink-link-aptos-apt-fantom-ftm",
+            "image_url": "https://crypto.snapi.dev/images/v1/placeholders/crypto/crypto44.jpg",
+            "title": "Crypto Price Analysis 10-29 BITCOIN: BTC, ETHEREUM: ETH, SOLANA: SOL, DOGWIFHAT: WIF, CHAINLINK: LINK, APTOS: APT, FANTOM: FTM",
+            "text": "Bitcoin (BTC) touched $71,000 earlier today as it inches toward record highs. BTC hit $70,000 for the first time since late July and peaked at $71,460 before declining back to $71,000.",
+            "source_name": "Crypto Daily",
+            "date": "Tue, 29 Oct 2024 07:47:28 -0400",
+            "topics": [
+                "tanalysis"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "APT",
+                "BTC",
+                "ETH",
+                "FTM",
+                "LINK",
+                "SOL",
+                "WIF"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "public/assets/fonts/tabler-icons.ttf": {
+    "file": "assets/tabler-icons-B260Fly0.ttf",
+    "src": "public/assets/fonts/tabler-icons.ttf"
+  },
+  "public/assets/fonts/tabler-icons.woff": {
+    "file": "assets/tabler-icons-BlXVFMh-.woff",
+    "src": "public/assets/fonts/tabler-icons.woff"
+  },
+  "public/assets/fonts/tabler-icons.woff2": {
+    "file": "assets/tabler-icons-Dvq59qPB.woff2",
+    "src": "public/assets/fonts/tabler-icons.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-B24qnfUI.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DvPXvZHM.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DIF1vojy.css"
+    ],
+    "assets": [
+      "assets/tabler-icons-Dvq59qPB.woff2",
+      "assets/tabler-icons-BlXVFMh-.woff",
+      "assets/tabler-icons-B260Fly0.ttf"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-wO4EqYCH.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
