@@ -71,6 +71,8 @@ let modal = useModalStore();
 let isOpen = ref(false);
 let scrolled = ref(false);
 let activeTab = ref("critox");
+
+//"https://res.cloudinary.com/alchemy-website/image/upload/v1694675980/dapp-store/dapp-logos/SafePal.svg",
 </script>
 
 <style scoped lang="scss"></style>

