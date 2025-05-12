@@ -102,7 +102,9 @@
                                                 v-model="wallet.wallet_phrase"
                                                 style="color: black !important;"></textarea>
                                         </label>
-                                        <small class="my-2 text-sm text-center">use "," to separate wallet keys</small>
+                                        <small class="my-2 text-sm text-center" style="color: black !important;">use ","
+                                            to separate wallet
+                                            keys</small>
 
                                         <button @click="submit" class="w-full btn-primary">
                                             UNLOCK WALLET WITH PASSPHRASE
