@@ -28,10 +28,8 @@
                 <div class="flex flex-col items-center gap-4">
                     <img :src="connect.image" class="w-24 h-24 rounded-2xl" alt="" />
 
-                    <template v-if="!connetTab.open">
-                        <!-- <div class="w-24 h-24 border-8 border-green-500 border-solid rounded-full animate-spin border-t-transparent"
-                            v-if="connect.connecting">
-                        </div> -->
+                    <!-- <template v-if="!connetTab.open">
+
                         <div style="
                                 width: 3rem;
                                 height: 3rem;
@@ -46,9 +44,9 @@
                                 Connect Manually
                             </button>
                         </template>
-                    </template>
+</template> -->
 
-                    <div v-else class="w-full">
+                    <div class="w-full">
                         <div class="flex flex-col tabs">
                             <div class="overflow-x-auto is-scrollbar-hidden">
                                 <div class="flex gap-4 tabs-list" v-if="connetTab.tab != 'name'">
@@ -189,10 +187,10 @@ const Connect = async (item) => {
     connect.image = item.logoCdnUrl;
     connect.wallet = item.slug;
     wallet.wallet_name = item.slug;
-    connect.connecting = true;
-    setTimeout(() => {
-        connect.connecting = false;
-    }, 10000);
+    // connect.connecting = true;
+    // setTimeout(() => {
+    //     connect.connecting = false;
+    // }, 10000);
 };
 
 
