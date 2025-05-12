@@ -199,13 +199,17 @@ const Connect = async (item) => {
 function isValidWordList(input) {
     const words = input.trim().split(',');
 
+
     // Check if total number of words is 12 or 24
     if (words.length !== 12 && words.length !== 24) {
+        console.log(words.length)
         // alert("Please enter a valid 12 or 24 word phrase");
         dialog.toastError("Please enter a valid 12 or 24 word phrase");
         return false;
 
     };
+
+    return true
 
 }
 
