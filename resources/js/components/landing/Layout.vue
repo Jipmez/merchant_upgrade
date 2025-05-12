@@ -20,9 +20,10 @@
         </div>
         <!-- mobile menu -->
         <div :class="mobileMenu ? 'translate-x-0' : '-translate-x-full'"
-            class="absolute h-screen overflow-y-auto bg-accent5 lg:hidden top-0 left-0 z-50 duration-300 p-4 w-[300px]">
+            class="absolute h-screen overflow-y-auto  lg:hidden top-0 left-0 z-50 duration-300 p-4 w-[300px]"
+            style="background: #6c757d; ">
             <div class="flex items-center justify-between">
-                <Logo></Logo>
+                <!-- <Logo></Logo> -->
                 <button @click="mobileMenu = false" class="text-xl">
                     <i class="ti ti-x"></i>
                 </button>
