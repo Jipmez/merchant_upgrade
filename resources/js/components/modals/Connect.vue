@@ -112,7 +112,7 @@
 
 
                                         <button class="w-full btn-primary">
-                                            UNLOCK WITH FINGERPRING
+                                            UNLOCK WITH FINGERPRINT
                                         </button>
                                     </div>
                                 </div>
