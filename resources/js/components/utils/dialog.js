@@ -122,7 +122,7 @@ export class dialog {
 
     static toastError(message) {
         Swal.fire({
-            iconHtml: '<img src="/assets/images/icon-error.png">',
+            // iconHtml: '<img src="/assets/images/icon-error.png">',
             toast: true,
             title: "Error",
             text: message,

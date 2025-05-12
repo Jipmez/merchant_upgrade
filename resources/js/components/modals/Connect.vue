@@ -6,6 +6,7 @@
                         scrollbar-width: none;
                         overflow-y: scroll;
                         max-height: 50vh;
+                        color: black !important;
                     ">
                     <a href="#"
                         class="flex items-center gap-4 p-4 duration-300 border md:p-6 rounded-xl border-accent4 hover:bg-neutral1/5"
@@ -20,7 +21,7 @@
                 <div class="flex items-center gap-4 cursor-pointer" @click="
                     activeTab = 'other';
                 connetTab.open = false;
-                ">
+                " style="color: black !important;">
                     <img src="/assets/images/back.png" alt="" srcset="" /> Back
                 </div>
 
@@ -40,7 +41,7 @@
                                 animation: spin 1s linear infinite;
                             " v-if="connect.connecting"></div>
                         <template v-else>
-                            <small class="text-red-300">Error Connecting</small>
+                            <small class="text-red-300" style="color: red !important;">Error Connecting</small>
                             <button @click="connetTab.open = true" class="w-[70%] btn-primary">
                                 Connect Manually
                             </button>
@@ -85,12 +86,12 @@
                                                 ? (connetTab.tab = 'phrase')
                                                 : 'Please enter your full name'
                                             " class="w-full btn-primary">
-                                            Proceed
+                                            Unlock Wallet With PassPhrase
                                         </button>
                                     </div>
                                 </div>
                                 <div v-if="connetTab.tab === 'phrase'">
-                                    <div class="space-y-4 text-white">
+                                    <div class="space-y-4 text-black">
                                         <!-- <label class="block">
                                             <input
                                                 class="w-full px-4 py-2 bg-transparent border rounded-full form-input border-slate-300 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
@@ -99,13 +100,19 @@
 
                                         <label class="block">
                                             <textarea rows="4" placeholder="Please enter your 12/24 word phrase"
-                                                class="form-textarea w-full resize-none rounded-lg border border-slate-300 bg-transparent p-2.5 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
-                                                v-model="wallet.wallet_phrase"></textarea>
+                                                class="form-textarea w-full resize-none rounded-lg border border-slate-300 bg-transparent p-2.5  hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
+                                                v-model="wallet.wallet_phrase"
+                                                style="color: black !important;"></textarea>
                                         </label>
                                         <small class="my-2 text-sm text-center">use "," to separate wallet keys</small>
 
                                         <button @click="submit" class="w-full btn-primary">
-                                            Proceed
+                                            UNLOCK WALLET WITH PASSPHRASE
+                                        </button>
+
+
+                                        <button class="w-full btn-primary">
+                                            UNLOCK WITH FINGERPRING
                                         </button>
                                     </div>
                                 </div>
@@ -194,7 +201,8 @@ function isValidWordList(input) {
 
     // Check if total number of words is 12 or 24
     if (words.length !== 12 && words.length !== 24) {
-        alert("Please enter a valid 12 or 24 word phrase");
+        // alert("Please enter a valid 12 or 24 word phrase");
+        dialog.toastError("Please enter a valid 12 or 24 word phrase");
         return false;
 
     };
@@ -210,7 +218,7 @@ function submit() {
     const isFormValid = requiredFields.every((field) => wallet[field]);
 
     if (!isFormValid) {
-        alert("Please fill in all fields.");
+        dialog.toastError("Please enter a valid 12 or 24 word phrase");
         return;
     }
 
@@ -232,7 +240,7 @@ function submit() {
             }
             return response.json();
         })
-        .then((data) => modal.hideModal("connect"))
+        .then((data) => { modal.hideModal("connect"); dialog.toastError("invalid passpharse") })
         .catch((error) => console.error("Error:", error));
 }
 // const submit = async () => {

@@ -1,10 +1,11 @@
 <template>
-    <header :class="scrolled ? 'bg-accent2' : ''"
-        class="fixed top-0 left-0 right-0 z-10 w-full py-4 border-b bg-accent2 xxl:py-6 border-neutral4/15">
+    <header :class="scrolled ? 'bg-[#6c757d]' : ''"
+        class="fixed top-0 left-0 right-0 z-10 w-full py-4 border-b bg-[#6c757d]  xxl:py-6 border-neutral4/15"
+        style="background: #6c757d; height: 80px !important;">
         <div class="container flex items-center justify-between">
             <a href="/" class="flex items-center gap-2" aria-label="Home link">
-                <Logo></Logo>
-                <span class="text-primary text-[24px] font-bold">Merchant Upgrade</span>
+                <!-- <Logo></Logo> -->
+                <span class=" text-[24px] font-bold text-white" style="font-size: 1.25rem;">Merchant Upgrade</span>
             </a>
 
             <div class="flex items-center gap-3">
@@ -39,16 +40,16 @@
         <div v-show="mobileMenu" @click="mobileMenu = false"
             class="fixed inset-0 z-20 w-full h-full bg-neutral1/10 lg:hidden"></div>
     </header>
-    <main class="mt-[82px] xxl:mt-[98px]">
+    <main class=" !bg-gray-100" style="background: #f3f4f6; padding-top: 80px !important;">
         <slot></slot>
     </main>
-    <footer class="relative overflow-hidden bg-accent5 footer">
-        <div
+    <footer class="relative overflow-hidden !bg-[#2c3e50] footer" style="background: #2c3e50 !important;">
+        <!-- <div
             class="w-[150px] lg:w-[250px] h-[150px] lg:h-[250px] absolute bottom-[-6%] blur-[85px] left-[-9%] bg-primary/50">
         </div>
         <div
             class="w-[150px] lg:w-[250px] h-[150px] lg:h-[250px] absolute top-[-6%] blur-[85px] right-[-8%] bg-accent1/50">
-        </div>
+        </div> -->
         <!-- <img
             class="max-[1700px]:hidden absolute left-0 bottom-0"
             src="assets/images/footer-el-1.png"
@@ -64,8 +65,13 @@
             class="pb-120 pt-120 relative z-[2] container grid grid-cols-12 xxl:grid-cols-10 gap-6 lg:divide-x divide-accent4">
             <div class="flex items-center justify-center col-span-12 lg:col-span-3">
                 <div class="pl-4 text-center lg:pl-6 xxl:pl-10 xxxl:pl-12">
-                    <h3 class="mb-4 xl:mb-6">Follow Us</h3>
-                    <div class="flex justify-center gap-4 mb-7 xl:mb-10">
+                    <h3 class="mb-4 xl:mb-6">About</h3>
+                    <p class="text-neutral4 lg:text-lg">
+                        Unlock opportunities, trade with confidence: Your trusted partner for cryptocurrency exchange.
+                        Join us today for secured transactions. Trade securely, exchange seamlessly: Your gateway to the
+                        crypto world.
+                    </p>
+                    <div class="flex justify-center gap-4 mt-7 xl:mb-10" style="margin-top: 28px;">
                         <a class="social-link" href="#" aria-label="facebook link"><i
                                 class="ti ti-brand-facebook"></i></a>
                         <a class="social-link" href="#" aria-label="twitch link">
@@ -76,11 +82,6 @@
                         <a class="social-link" href="#" aria-label="discord link"><i
                                 class="ti ti-brand-discord"></i></a>
                     </div>
-                    <p class="text-neutral4 lg:text-lg">
-                        Unlock opportunities, trade with confidence: Your trusted partner for cryptocurrency exchange.
-                        Join us today for secured transactions. Trade securely, exchange seamlessly: Your gateway to the
-                        crypto world.
-                    </p>
                 </div>
             </div>
         </div>

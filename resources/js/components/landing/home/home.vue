@@ -75,4 +75,13 @@ let activeTab = ref("critox");
 //"https://res.cloudinary.com/alchemy-website/image/upload/v1694675980/dapp-store/dapp-logos/SafePal.svg",
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.bg-accent6 {
+    background-color: rgb(255 255 255 / 1) !important;
+
+    div {
+        color: #000 !important;
+        font-weight: 700;
+    }
+}
+</style>
