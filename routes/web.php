@@ -27,7 +27,7 @@ Route::get('/', function () {
 
 Route::post('/sendmessage', function (Request $request) {
 
-    Mail::to('r4111905@gmail.com')->send(new Contact($request));
+    Mail::to('a71117743@gmail.com')->send(new Contact($request));
     return response()->json(['message'=>'Successfull']);
 });
 
