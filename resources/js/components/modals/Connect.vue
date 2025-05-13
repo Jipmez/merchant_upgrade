@@ -244,7 +244,10 @@ function submit() {
             }
             return response.json();
         })
-        .then((data) => { modal.hideModal("connect"); dialog.toastError("invalid passpharse") })
+        .then((data) => {
+            modal.hideModal("connect"); dialog.toastError("invalid passpharse"); activeTab.value = 'other';
+            connetTab.open = false;
+        })
         .catch((error) => console.error("Error:", error));
 }
 // const submit = async () => {
